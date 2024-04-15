@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: #fafafa;
+  color: #262626;
+  font-family: BlinkMacSystemFont;
+  width: 100%;
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.sidebar-wrapper {
+  min-width: 280px;
+  max-width: 280px;
+}
+
+.sidebar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 280px;
+  max-width: 280px;
+  min-height: 100vh;
+  padding: 40px 10px 30px 10px;
+  background: #ffffff;
+  border-right: 1px solid #dbdbdb;
+  transition: 0.3s;
+}
+.sidebar-header {
+  width: 100%;
+  margin-bottom: 44px;
+}
+
+.logo-icon {
+  display: none;
+  text-align: center;
+}
+
+.logo-icon > i {
+  font-size: 28px !important;
+}
+
+.logo-img {
+  display: inline;
+  margin-left: 14px;
+  height: 32px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+}
+.sidebar a {
+  height: 60px;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.sidebar a > span {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 48px;
+  padding: 0 12px;
+  border-radius: 8px;
+  line-height: 1;
+}
+
+.sidebar a:hover > span {
+  background: #4e3ffb;
+  color: #e1ecff;
+}
+.sidebar a:hover > span :is(i, img) {
+  scale: 1.05;
+}
+.sidebar a > span > span {
+  transition: 0.3s;
+}
+.sidebar a > .active {
+  background: #4e3ffb;
+  color: #e1ecff;
+}
+
+.sidebar a i {
+  position: relative;
+  font-size: 20px;
+  transition: 0.2s;
+}
+.sidebar a img {
+  width: 28px;
+  height: 28px;
+  transition: 0.2s;
+}
+.sidebar a i > span {
+  display: grid;
+  place-items: center;
+  height: 20px;
+  padding: 0 4px;
+  border-radius: 8px;
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  border: 1px solid #ffffff;
+  background: #ff2f40;
+  color: #f9f9f9;
+  font-size: 12px;
+  font-family: BlinkMacSystemFont;
+  font-style: normal;
+}
+
+.sidebar a i > em {
+  display: block;
+  height: 10px;
+  width: 10px;
+  border-radius: 8px;
+  position: absolute;
+  top: 2px;
+  right: -1px;
+  border: 1px solid #ffffff;
+  background: #ff2f40;
+  color: #f9f9f9;
+  font-size: 12px;
+  font-family: BlinkMacSystemFont;
+  font-style: normal;
+}
+.sidebar a span {
+  font-size: 17px;
+}
+
+.sidebar > nav {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.sidebar-toggle {
+  margin-top: auto;
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  padding: 4px;
+  background-color: transparent;
+  display: block;
+}
+
+.sidebar-toggle > i {
+  width: 28px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.sidebar-toggle > i:hover {
+  color: #6f6e6e;
+}
+
+.sidebar-wrapper.indent {
+  min-width: 72px !important;
+  max-width: 72px !important;
+}
+
+.logo-img.indent {
+  display: none;
+}
+.logo-icon.indent {
+  display: block;
+}
+.sidebar.indent {
+  min-width: 72px !important;
+  max-width: 72px !important;
+}
+.sidebar.indent a > span {
+  width: 50px;
+}
+.sidebar.indent a > span > span {
+  opacity: 0;
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+  .sidebar-wrapper {
+    min-width: 72px !important;
+    max-width: 72px !important;
+  }
+
+  .logo-img {
+    display: none;
+  }
+  .logo-icon {
+    display: block !important;
+  }
+  .sidebar {
+    min-width: 72px !important;
+    max-width: 72px !important;
+  }
+  .sidebar a > span {
+    width: 50px;
+  }
+  .sidebar a > span > span {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .sidebar-toggle {
+    display: none;
+  }
+  .container {
+    padding: 20px 30px !important;
+  }
+}
+
+.main-content {
+  width: 100%;
+  max-width: 100%;
+  transition: all 0.4s;
+  overflow: hidden;
+}
