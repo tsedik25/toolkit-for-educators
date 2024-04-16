@@ -115,6 +115,8 @@ function displayTableData(data, type) {
 
   const table = createTable(data);
   outputDiv.appendChild(table);
+
+  createDownloadLink(outputDiv, data);
 }
 
 function createTable(data) {
@@ -157,6 +159,35 @@ function createTableRow(table, item) {
   const emptyCell = document.createElement('td');
   row.appendChild(emptyCell);
   table.appendChild(row);
+}
+
+function createDownloadLink(outputDiv, data) {
+  const downloadLink = document.createElement('a');
+  downloadLink.classList.add('download-button');
+  downloadLink.innerHTML =
+    "<span>Export CSV</span><i class='fa-solid fa-file-export'></i>";
+  downloadLink.href = generateCsv(data);
+  downloadLink.download = 'table_data.csv';
+  outputDiv.appendChild(downloadLink);
+}
+
+function generateCsv(data) {
+  const headers = Object.keys(data[0]).concat('Marks');
+  let csvContent = headers.map(capitalize).join(',') + '\n';
+
+  data.forEach((item) => {
+    const row = headers.map((header) => formatCsvCell(item[header])).join(',');
+    csvContent += row + '\n';
+  });
+
+  return 'data:text/csv;charset=utf-8,' + encodeURIComponent(csvContent);
+}
+
+function formatCsvCell(content) {
+  if (typeof content === 'string' && content.includes(',')) {
+    return `"${content}"`;
+  }
+  return content;
 }
 
 function capitalize(text) {
