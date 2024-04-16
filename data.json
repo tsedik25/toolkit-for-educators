@@ -1,0 +1,80 @@
+{
+  "presentation": [
+    {
+      "criteria": "Content",
+      "outstanding": "Covers all aspects of the topic, including illustrative examples. Discipline-specific terms are well defined and integrated into the presentation.",
+      "good": "Covers all aspects of the topic. Discipline-specific terms are well defined and used appropriately.",
+      "sound": "Includes essential information and some supporting details. Discipline-specific terms are defined and used appropriately.",
+      "satisfactory": "Includes most essential information and some supporting details. Most discipline-specific terms are defined, application is occasionally incorrect.",
+      "unsatisfactory": "Includes some essential information with sounditical details missing. Inconsistent use and application of discipline-specific language."
+    },
+    {
+      "criteria": "Organization, clarity of argument, and justification",
+      "outstanding": "Organisation of information is clear and consistent with appropriate transitions between sections. Justification of conclusion/recommendations based on valid interpretations of material presented.",
+      "good": "Organisation of information is clear, consistent and appropriately sequenced with an introduction and conclusion. Justification of conclusion/recommendations based on material presented.",
+      "sound": "Organisation of information is clear and appropriately sequenced with an introduction and conclusion. Justification of conclusion/recommendations relate to material presented.",
+      "satisfactory": "Attempts to organise information are evident. Reasoning behind conclusions/recommendations is occasionally weak. Limited attempt at organising information in a coherent order. Reasoning behind conclusions/recommendations unclear and/or incomplete.",
+      "unsatisfactory": "Limited attempt at organising information in a coherent order. Reasoning behind conclusions/recommendations unclear and/or incomplete."
+    },
+    {
+      "criteria": "Delivery, engagement with audience, and time management",
+      "outstanding": "Clear, strong voice with appropriate inflections emphasizing key messages. Responds accurately to all questions with relevant explanations and contextualization/elaboration. Keep eye contact with the audience. No reliance on notes. Efficient management of presentation and audience response time.",
+      "good": "Clear, strong voice (i.e. all audience members hear the presentation) with a variety of inflections. Responds accurately to all questions with relevant explanations. Keep eye contact with the audience. Occasionally glances at notes or slides. Efficient management of presentation time with topics reflecting their relative importance.",
+      "sound": "Clear, audible voice (i.e. most audience members hear the presentation), but occasionally monotone. Responds accurately to all questions. Keeps eye contact with the audience most of the time. Occasionally reads notes or slides. Manages presentation within time limits.",
+      "satisfactory": "Mostly clear voice, occasionally delivered at a distracting pace (i.e. too slow or too quick) and/or monotone. Responds to most questions with rudimentary answers (not always clearly or completely) and fails to elaborate. Makes intermittent eye contact. Relies on notes or slides most of the time. Uneven presentation to manage time.",
+      "unsatisfactory": "Quiet voice or pronunciation is often indistinct. (i.e. audience members at the back of the room have difficulty hearing the presentation). Responds to few questions, some incomplete and/or incorrect answers. Rarely makes eye contact with the audience; reads notes or slides. Poor time management."
+    },
+    {
+      "criteria": "Supporting material",
+      "outstanding": "Supporting material reinforces message, clean and simple layout, enhancing communication of ideas.",
+      "good": "Supporting material is informative and effectively reinforces the message.",
+      "sound": "Supporting material reinforces the message.",
+      "satisfactory": "Supporting material relevant; sometimes difficult to view/engage with, (i.e. some graphics or special effects distract).",
+      "unsatisfactory": "Supporting material is very difficult to view, layout is cluttered and confusing."
+    },
+    {
+      "criteria": "Effective, cohesive teamwork (if group presentation)",
+      "outstanding": "Functions effectively as a cohesive team with clear coordination between participating members. All participants contributed equally to the poster presentation.",
+      "good": "Evidence of cohesive team function with some links between members’ contributions.Evidence of equal contributions of group members.",
+      "sound": "Some evidence of cohesive team function and coordination between group members’ contributions. Some evidence of equal contributions in the group.",
+      "satisfactory": "Some evidence of cohesive team function and coordination between group members’ contributions. Some evidence of equal contributions in the group.",
+      "unsatisfactory": "Limited evidence of team function and/or coordination between members’ contributions. Minimal evidence of reasonably balanced contributions between group members."
+    }
+  ],
+  "coding": [
+    {
+      "criteria": "Content",
+      "outstanding": "Covers all aspects of the topic, including illustrative examples. Discipline-specific terms are well defined and integrated into the presentation.",
+      "good": "Covers all aspects of the topic. Discipline-specific terms are well defined and used appropriately.",
+      "sound": "Includes essential information and some supporting details. Discipline-specific terms are defined and used appropriately.",
+      "satisfactory": "Includes most essential information and some supporting details. Most discipline-specific terms are defined, application is occasionally incorrect.",
+      "unsatisfactory": "Includes some essential information with sounditical details missing. Inconsistent use and application of discipline-specific language."
+    },
+    {
+      "criteria": "Supporting material",
+      "outstanding": "Supporting material reinforces message, clean and simple layout, enhancing communication of ideas.",
+      "good": "Supporting material is informative and effectively reinforces the message.",
+      "sound": "Supporting material reinforces the message.",
+      "satisfactory": "Supporting material relevant; sometimes difficult to view/engage with, (i.e. some graphics or special effects distract).",
+      "unsatisfactory": "Supporting material is very difficult to view, layout is cluttered and confusing."
+    },
+    {
+      "criteria": "Effective, cohesive teamwork (if group presentation)",
+      "outstanding": "Functions effectively as a cohesive team with clear coordination between participating members. All participants contributed equally to the poster presentation.",
+      "good": "Evidence of cohesive team function with some links between members’ contributions.Evidence of equal contributions of group members.",
+      "sound": "Some evidence of cohesive team function and coordination between group members’ contributions. Some evidence of equal contributions in the group.",
+      "satisfactory": "Some evidence of cohesive team function and coordination between group members’ contributions. Some evidence of equal contributions in the group.",
+      "unsatisfactory": "Limited evidence of team function and/or coordination between members’ contributions. Minimal evidence of reasonably balanced contributions between group members."
+    }
+  ],
+  "report-writing": [
+    {
+      "criteria": "Effective, cohesive teamwork (if group presentation)",
+      "outstanding": "Functions effectively as a cohesive team with clear coordination between participating members. All participants contributed equally to the poster presentation.",
+      "good": "Evidence of cohesive team function with some links between members’ contributions.Evidence of equal contributions of group members.",
+      "sound": "Some evidence of cohesive team function and coordination between group members’ contributions. Some evidence of equal contributions in the group.",
+      "satisfactory": "Some evidence of cohesive team function and coordination between group members’ contributions. Some evidence of equal contributions in the group.",
+      "unsatisfactory": "Limited evidence of team function and/or coordination between members’ contributions. Minimal evidence of reasonably balanced contributions between group members."
+    }
+  ]
+}

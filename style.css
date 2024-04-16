@@ -401,3 +401,146 @@ h6 {
     justify-content: center;
   }
 }
+
+/* rubric-generator.html */
+#output {
+  max-width: 75vw;
+  overflow-x: auto;
+}
+
+#output p {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow-x: auto;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.data-table th {
+  background-color: #f2f2f2;
+}
+
+@media only screen and (max-width: 600px) {
+  .data-table {
+    overflow-x: auto;
+  }
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #555;
+  border-radius: 3px;
+  background-color: #fff;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #555;
+}
+
+input[type="checkbox"]:checked::before {
+  content: "\2713";
+  text-align: center;
+  line-height: 20px;
+  color: #fff;
+}
+
+label {
+  margin-left: 5px;
+}
+
+.rubric-button {
+  background-color: #4e3ffb;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin: 10px 0;
+}
+
+.rubric-button:hover {
+  background-color: #3327b5;
+  cursor: pointer;
+}
+
+/* dropdown */
+
+.split-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 8px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  color: #f9f9f9;
+  font-size: 16px;
+}
+.split-button > button:nth-child(1) {
+  width: 100%;
+  overflow: hidden;
+  padding: 0 24px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.split-button > button:nth-child(2) {
+  width: 50px;
+  background: rgba(0, 0, 0, 0.12);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.split-button > button:nth-child(2) > span {
+  margin: auto;
+}
+
+.menu {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  z-index: 1;
+  width: 100%;
+  translate: -30px 0;
+  opacity: 0;
+  visibility: hidden;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.45);
+  transition: all 0.45s;
+}
+
+.menu.open {
+  translate: 0 0;
+  opacity: 1;
+  visibility: visible;
+}
+.menu > button {
+  gap: 10px;
+  padding: 10px 18px;
+}
