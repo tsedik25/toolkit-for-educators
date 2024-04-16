@@ -562,3 +562,9 @@ button {
 .download-button:hover {
   background-color: #507f4a;
 }
+
+.coming-soon-page {
+  color: #333;
+  text-align: center;
+  padding: 50px;
+}
