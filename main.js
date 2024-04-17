@@ -20,6 +20,8 @@ function toggleDropdown() {
 }
 
 function handleMenuButtonClicked(type) {
+  const outputDiv = document.getElementById('output2');
+  outputDiv.innerHTML = '';
   toggleDropdown();
   displayData(type);
   options.textContent = capitalize(type);
@@ -63,7 +65,7 @@ function displayData(type) {
   const outputDiv = document.getElementById('output');
   outputDiv.innerHTML =
     '<p>Select the criteria you wish to include in your rubric:</p>';
-
+  selectedRows = [];
   allData?.[type]?.forEach((item) => {
     createCheckbox(item, outputDiv);
   });
