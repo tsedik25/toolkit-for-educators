@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Report | Toolkit For Educators</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <script src="https://kit.fontawesome.com/f7a4ce305b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <aside class="sidebar-wrapper">
+    <div class="sidebar">
+      <header class="sidebar-header">
+        <!-- <img class="logo-img" src="logo.svg" /> -->
+        <a href="index.html">
+          <p class="logo-img">Toolkit For Educators</p>
+        </a>
+        <a href="index.html" class="logo-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></a>
+      </header>
+      <nav>
+        <!-- other simple buttons -->
+        <a href="rubric-generator.html">
+          <span>
+            <i class="fa-solid fa-table-list"></i>
+            <span>Rubric Generator</span>
+          </span>
+        </a>
+        <a href="question-bank.html">
+          <span>
+            <i class="fa-solid fa-file-circle-question"></i>
+            <span>Question Bank</span>
+          </span>
+        </a>
+        <a href="report.html">
+          <span>
+            <i class="fa-solid fa-chart-pie"></i>
+            <span>Report</span>
+          </span>
+        </a>
+        <a href="analytics.html">
+          <span class="active">
+            <i class="fa-solid fa-chart-simple"></i>
+            <span>Analytics</span>
+          </span>
+        </a>
+        <span class="sidebar-toggle"><i class="fa-solid fa-outdent" onclick="toggleSidebar()"></i></span>
+      </nav>
+    </div>
+  </aside>
+  <main class="main-content">
+    <div class="container" id="downloads">
+      <h1>Analytics</h1>
+    </div>
+  </main>
+
+  <script src="analytics.js" type="module"></script>
+  <script src="sidebar.js"></script>
+</body>
+
+</html>

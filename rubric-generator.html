@@ -1,66 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rubric Generator | Toolkit For Educators</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rubric Generator | Toolkit For Educators</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" type="image/png" href="favicon.png" />
-  <script src="https://kit.fontawesome.com/f7a4ce305b.js" crossorigin="anonymous"></script>
-</head>
-<body>
-  <aside class="sidebar-wrapper">
-    <div class="sidebar">
-      <header class="sidebar-header">
-        <!-- <img class="logo-img" src="logo.svg" /> -->
-        <a href="index.html">
-          <p class="logo-img">Toolkit For Educators</p>
-        </a>
-        <a href="index.html" class="logo-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></a>
-      </header>
-      <nav>
-        <!-- other simple buttons -->
-        <a href="rubric-generator.html">
-          <span class="active">
-            <i class="fa-solid fa-table-list"></i>
-            <span>Rubric Generator</span>
-          </span>
-        </a>
-        <a href="question-bank.html">
-          <span>
-            <i class="fa-solid fa-file-circle-question"></i>
-            <span>Question Bank</span>
-          </span>
-        </a>
-        <a href="report.html">
-          <span>
-            <i class="fa-solid fa-chart-simple"></i>
-            <span>Report</span>
-          </span>
-        </a>
-        <span class="sidebar-toggle"><i class="fa-solid fa-outdent" onclick="toggleSidebar()"></i></span>
-      </nav>
-    </div>
-  </aside>
-  <main class="main-content">
-    <div class="container">
-      <h1>Rubric Generator</h1>
-      <div class="split-button">
-        <button onclick="toggleDropdown()" id="options">Options</button>
-        <button onclick="toggleDropdown()">
-          <span id="chevron"><i class="fa-solid fa-chevron-down"></i></span>
-        </button>
-
-        <div id="menu" class="menu">
-        </div>
+    <script
+      src="https://kit.fontawesome.com/f7a4ce305b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <aside class="sidebar-wrapper">
+      <div class="sidebar">
+        <header class="sidebar-header">
+          <!-- <img class="logo-img" src="logo.svg" /> -->
+          <a href="index.html"><p class="logo-img">Toolkit For Educators</p></a>
+          <a href="index.html" class="logo-icon"
+            ><i class="fa-solid fa-wand-magic-sparkles"></i
+          ></a>
+        </header>
+        <nav>
+          <!-- other simple buttons -->
+          <a href="rubric-generator.html">
+            <span class="active">
+              <i class="fa-solid fa-table-list"></i>
+              <span>Rubric Generator</span>
+            </span>
+          </a>
+          <a href="question-bank.html">
+            <span>
+              <i class="fa-solid fa-file-circle-question"></i>
+              <span>Question Bank</span>
+            </span>
+          </a>
+          <a href="report.html">
+            <span>
+              <i class="fa-solid fa-chart-pie"></i>
+              <span>Report</span>
+            </span>
+          </a>
+          <a href="analytics.html">
+            <span>
+              <i class="fa-solid fa-chart-simple"></i>
+              <span>Analytics</span>
+            </span>
+          </a>
+          <span class="sidebar-toggle"
+            ><i class="fa-solid fa-outdent" onclick="toggleSidebar()"></i
+          ></span>
+        </nav>
       </div>
-
-      <div id="output"></div>
-      <div id="output2"></div>
-  </main>
-
-  <script src="main.js"></script>
-</body>
-
+    </aside>
+    <main class="main-content">
+      <div class="container">
+        <h1>Rubric Generator</h1>
+        <div class="split-button">
+          <button id="options">Options</button>
+          <button>
+            <span id="chevron"><i class="fa-solid fa-chevron-down"></i></span>
+          </button>
+          <div id="menu" class="menu">
+          </div>
+        </div>
+        <div id="output"></div>
+        <div id="output2"></div>
+      </div>
+    </main>
+    <!-- <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-database.js"></script> -->
+    <script src="main.js" type="module"></script>
+    <script src="firebase.js" type="module"></script>
+    <script src="sidebar.js"></script>
+  </body>
 </html>

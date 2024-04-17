@@ -1,85 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home | Toolkit For Educators</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" type="image/png" href="favicon.png" />
-  <script src="https://kit.fontawesome.com/f7a4ce305b.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <aside class="sidebar-wrapper">
-    <div class="sidebar">
-      <header class="sidebar-header">
-        <!-- <img class="logo-img" src="logo.svg" /> -->
-        <a href="index.html">
-          <p class="logo-img">Toolkit For Educators</p>
-        </a>
-        <a href="index.html" class="logo-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></a>
-      </header>
-      <nav>
-        <!-- other simple buttons -->
-        <a href="rubric-generator.html">
-          <span>
-            <i class="fa-solid fa-table-list"></i>
-            <span>Rubric Generator</span>
-          </span>
-        </a>
-        <a href="question-bank.html">
-          <span>
-            <i class="fa-solid fa-file-circle-question"></i>
-            <span>Question Bank</span>
-          </span>
-        </a>
-        <a href="report.html">
-          <span>
-            <i class="fa-solid fa-chart-simple"></i>
-            <span>Report</span>
-          </span>
-        </a>
-        <span class="sidebar-toggle"><i class="fa-solid fa-outdent" onclick="toggleSidebar()"></i></span>
-      </nav>
-    </div>
-  </aside>
-  <main class="main-content">
-    <div class="hero-banner">
-      <div class="hero-content">
-        <h1>Welcome to Toolkit for Educators</h1>
-        <p>
-          A comprehensive set of tools to enhance your teaching experience.
-        </p>
-        <a href="#" class="explore-button">Get Started</a>
-      </div>
-    </div>
-    <div class="featured-tools">
-      <div class="left">
-        <h1>Featured Tools</h1>
-        <p>Discover tools to streamline evaluation</p>
-      </div>
-      <div class="right">
-        <div class="card">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Toolkit For Educators</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/f7a4ce305b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/png" href="favicon.png" />
+  </head>
+  <body>
+    <aside class="sidebar-wrapper">
+      <div class="sidebar">
+        <header class="sidebar-header">
+          <!-- <img class="logo-img" src="logo.svg" /> -->
+          <a href="index.html"><p class="logo-img">Toolkit For Educators</p></a>
+          <a href="index.html" class="logo-icon"
+            ><i class="fa-solid fa-wand-magic-sparkles"></i
+          ></a>
+        </header>
+        <nav>
+          <!-- other simple buttons -->
           <a href="rubric-generator.html">
-            <img class="card-img" src="https://via.placeholder.com/300" alt="Placeholder Image" />
+            <span>
+              <i class="fa-solid fa-table-list"></i>
+              <span>Rubric Generator</span>
+            </span>
+          </a>
+          <a href="question-bank.html">
+            <span>
+              <i class="fa-solid fa-file-circle-question"></i>
+              <span>Question Bank</span>
+            </span>
+          </a>
+          <a href="report.html">
+            <span>
+              <i class="fa-solid fa-chart-pie"></i>
+              <span>Report</span>
+            </span>
+          </a>
+          <a href="analytics.html">
+            <span>
+              <i class="fa-solid fa-chart-simple"></i>
+              <span>Analytics</span>
+            </span>
+          </a>
+          <span class="sidebar-toggle"
+            ><i class="fa-solid fa-outdent" onclick="toggleSidebar()"></i
+          ></span>
+        </nav>
+      </div>
+    </aside>
+    <main class="main-content">
+      <section class="hero-banner">
+        <div class="hero-content">
+          <h1>Welcome to Toolkit for Educators</h1>
+          <p>
+            A comprehensive set of tools to enhance your teaching experience.
+          </p>
+          <a href="#" class="explore-button">Get Started</a>
+        </div>
+      </section>
+      <section class="featured-tools">
+        <div class="left">
+          <h1>Featured Tools</h1>
+          <p>Discover tools to streamline evaluation</p>
+        </div>
+        <div class="right">
+          <div class="card">
+            <a href="rubric-generator.html">
+              <img
+                class="card-img"
+                src="https://via.placeholder.com/300"
+                alt="Placeholder Image"
+              />
+              <div class="card-content">
+                <h2 class="card-title">Rubric Generator</h2>
+                <p class="card-description">Data</p>
+              </div>
+            </a>
+          </div>
+          <div class="card">
+            <img
+              class="card-img"
+              src="https://via.placeholder.com/300"
+              alt="Placeholder Image"
+            />
             <div class="card-content">
-              <h2 class="card-title">Rubric Generator</h2>
+              <h2 class="card-title">Question Bank</h2>
               <p class="card-description">Data</p>
             </div>
-          </a>
-        </div>
-        <div class="card">
-          <img class="card-img" src="https://via.placeholder.com/300" alt="Placeholder Image" />
-          <div class="card-content">
-            <h2 class="card-title">Question Bank</h2>
-            <p class="card-description">Data</p>
           </div>
         </div>
-      </div>
-    </div>
-  </main>
-  <script src="main.js"></script>
-</body>
-
+      </section>
+      <!-- <div class="hero-banner">
+            <div class="hero-content">
+                <h1>Explore the Beauty of Nature</h1>
+                <p>Discover breathtaking landscapes and immerse yourself in the wonders of the great outdoors.</p>
+                <a href="#" class="explore-button">Explore Now</a>
+            </div>
+        </div> -->
+    </main>
+    <script src="sidebar.js"></script>
+  </body>
 </html>

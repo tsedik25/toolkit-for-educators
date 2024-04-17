@@ -1,21 +1,16 @@
-function toggleSidebar() {
-  const sidebarWrapper = document.querySelector(".sidebar-wrapper");
-  const sidebar = document.querySelector(".sidebar");
-  const logoImg = document.querySelector(".logo-img");
-  const logoIcon = document.querySelector(".logo-icon");
-  const sidebarToggle = document.querySelector(".sidebar-toggle");
-  sidebarToggle.innerHTML = sidebar.classList.contains("indent")
-    ? '<i class="fa-solid fa-outdent" onclick="toggleSidebar()"></i>'
-    : '<i class="fa-solid fa-indent" onclick="toggleSidebar()"></i>';
-  sidebarWrapper.classList.toggle("indent");
-  sidebar.classList.toggle("indent");
-  logoImg.classList.toggle("indent");
-  logoIcon.classList.toggle("indent");
-}
+import { writeToFirebase } from './firebase.js';
+import { capitalize } from './common.js';
 
 const menu = document.getElementById('menu');
 const chevron = document.getElementById('chevron');
 const options = document.getElementById('options');
+
+options.addEventListener('click', function () {
+  toggleDropdown();
+});
+chevron.addEventListener('click', function () {
+  toggleDropdown();
+});
 
 function toggleDropdown() {
   menu.classList.toggle('open');
@@ -47,8 +42,16 @@ function getData() {
       const menu = document.getElementById('menu');
       for (const key in data) {
         const capitalizedKey = capitalize(key);
-        menu.innerHTML += `<button onclick="handleMenuButtonClicked('${key}')">${capitalizedKey}</button>`;
+        const button = document.createElement('button');
+        button.id = key;
+        button.textContent = capitalizedKey;
+        menu.appendChild(button);
+        const keyButton = document.getElementById(`${key}`);
+        keyButton.addEventListener('click', function () {
+          handleMenuButtonClicked(key);
+        });
       }
+
       allData = data;
     })
     .catch((error) => {
@@ -116,7 +119,7 @@ function displayTableData(data, type) {
   const table = createTable(data);
   outputDiv.appendChild(table);
 
-  createDownloadLink(outputDiv, data);
+  createDownloadLink(outputDiv, data, type);
 }
 
 function createTable(data) {
@@ -161,7 +164,7 @@ function createTableRow(table, item) {
   table.appendChild(row);
 }
 
-function createDownloadLink(outputDiv, data) {
+function createDownloadLink(outputDiv, data, type) {
   const downloadLink = document.createElement('a');
   downloadLink.classList.add('download-button');
   downloadLink.innerHTML =
@@ -169,9 +172,14 @@ function createDownloadLink(outputDiv, data) {
   downloadLink.href = generateCsv(data);
   downloadLink.download = 'table_data.csv';
   outputDiv.appendChild(downloadLink);
+
+  downloadLink.addEventListener('click', function () {
+    writeToFirebase(type);
+  });
 }
 
 function generateCsv(data) {
+  console.log(data, 'data');
   const headers = Object.keys(data[0]).concat('Marks');
   let csvContent = headers.map(capitalize).join(',') + '\n';
 
@@ -188,13 +196,4 @@ function formatCsvCell(content) {
     return `"${content}"`;
   }
   return content;
-}
-
-function capitalize(text) {
-  return text.includes('-')
-    ? text
-        .split('-')
-        .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-        .join(' ')
-    : text.charAt(0).toUpperCase() + text.slice(1);
 }
