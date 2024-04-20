@@ -531,7 +531,7 @@ button {
   opacity: 0;
   visibility: hidden;
   border-radius: 8px;
-  background: rgba(0, 0, 0, 0.45);
+  background: rgb(118, 112, 112);
   transition: all 0.45s;
 }
 
