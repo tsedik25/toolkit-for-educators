@@ -5,7 +5,7 @@ body {
   margin: 0;
   background: #fafafa;
   color: #262626;
-  font-family: BlinkMacSystemFont;
+  font-family: "PT Sans", sans-serif;
   width: 100%;
   display: flex;
 }
@@ -291,21 +291,9 @@ h6 {
 }
 
 .hero-content p {
-  font-size: 1.2em;
+  font-size: 1.5em;
   margin-bottom: 30px;
-}
-
-.explore-button {
-  padding: 10px 20px;
-  background-color: #ff5722;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-.explore-button:hover {
-  background-color: #e64a19;
+  padding: 0px 200px;
 }
 
 .featured-tools {
@@ -378,6 +366,7 @@ h6 {
   font-size: 1rem;
 }
 
+
 @media only screen and (max-width: 1024px) {
   .hero-banner {
     background-position: left;
@@ -387,6 +376,12 @@ h6 {
     font-size: 2em;
     margin-bottom: 20px;
   }
+
+  .hero-content p {
+    font-size: 1.2em;
+    padding: 0 100px;
+  }
+
   .featured-tools {
     padding: 20px;
     flex-direction: column;
