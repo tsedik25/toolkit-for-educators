@@ -1,80 +1,454 @@
 {
+  "project-based-assignments": [
+    {
+      "criteria": "Project requirement",
+      "outstanding": "Meets all the requirements; Project overview, Key stakeholders analysis, Scope and business reasons, Assumptions, constraints and limitation, Dependencies.",
+      "good": "Meets most of the requirements; Project overview, Key stakeholders analysis, scope and business reasons,constraints and limitation, Dependencies.",
+      "sound": "Meets the requirements; project overview, key stakeholders, scope and business reasons,constraints and limitations.",
+      "satisfactory": "Meets some of the requirements. project overview, key stakeholders, scope and business reasons, limitations.",
+      "unsatisfactory": "Meets very few(1 or 2) or none of the requirements."
+    },
+    {
+      "criteria": "Understanding and critical thinking",
+      "outstanding": "Analyses key and emerging aspects of the topic, bringing an originality of perspective, evaluates the findings and gives a sound reasoning.",
+      "good": "Analyses key aspects and emerging aspects of the topic and identifies and evaluates the findings and is self-contained.",
+      "sound": "Analyses key aspects of the topic, identifies and evaluates the findings but is not totally self-contained.",
+      "satisfactory": "Demonstrates some evidence of analytical thinking but largely describes aspects of the topic.",
+      "unsatisfactory": "Provides inaccurate explanations of aspects of the topic."
+    },
+    {
+      "criteria": "Research skills",
+      "outstanding": "Draws upon relevant, reliable and current evidence from a wide range of sources. Knows the key idea why research is needed and what should be the outcome.",
+      "good": "Draws upon relevant, current and reliable evidence from a range of sources. Applying the key idea, the report reflects some of the research ideas.",
+      "sound": "Draws upon relevant, current evidence from a range of sources. Research ideas are a bit limited and unreliable.",
+      "satisfactory": "Draws upon relevant, current evidence albeit from a limited number of sources. Research ideas are limited and unreliable.",
+      "unsatisfactory": "Draws upon evidence that is irrelevant, unreliable and/or lacks currency."
+    },
+    {
+      "criteria": "Documentation and accuracy",
+      "outstanding": "No errors, no grammar mistakes and perfectly documented which meets all the assignment documentation requirements.",
+      "good": "No errors, no grammar mistakes and nicely documented, but lack some(1 or 2) of the documentation criteria of the assignment.",
+      "sound": "No errors, no grammar mistakes but lack the documentation criteria of the assignment.",
+      "satisfactory": "Some errors and grammar mistakes and moderately documented which doesn’t meet most of the documentation criteria of the assignment.",
+      "unsatisfactory": "Errors and grammar mistakes and not documented well which doesn’t meet documentation criteria of the assignment."
+    }
+  ],
+
   "presentation": [
     {
       "criteria": "Content",
-      "outstanding": "Covers all aspects of the topic, including illustrative examples. Discipline-specific terms are well defined and integrated into the presentation.",
-      "good": "Covers all aspects of the topic. Discipline-specific terms are well defined and used appropriately.",
-      "sound": "Includes essential information and some supporting details. Discipline-specific terms are defined and used appropriately.",
-      "satisfactory": "Includes most essential information and some supporting details. Most discipline-specific terms are defined, application is occasionally incorrect.",
-      "unsatisfactory": "Includes some essential information with sounditical details missing. Inconsistent use and application of discipline-specific language."
+      "outstanding": "Includes illustrations to assist with explaining topics and covers all areas of the subject. Terms specific to a subject are defined and incorporated into the presentation.",
+      "good": "Covers all areas of the subject. Terms specific to a subject are well defined and used appropriately.",
+      "sound": "Incorporates some supporting details along with the necessary information. Terminologies specific to a discipline are defined and applied correctly.",
+      "satisfactory": "Contains some supporting details along with some of the important materials. Although most terminology related to a subject are specified, sometimes they are not applied correctly.",
+      "unsatisfactory": "Includes some important information, however certain key details are lacking. Inconsistent use and use of terminology specific to a given discipline."
     },
     {
-      "criteria": "Organization, clarity of argument, and justification",
-      "outstanding": "Organisation of information is clear and consistent with appropriate transitions between sections. Justification of conclusion/recommendations based on valid interpretations of material presented.",
-      "good": "Organisation of information is clear, consistent and appropriately sequenced with an introduction and conclusion. Justification of conclusion/recommendations based on material presented.",
-      "sound": "Organisation of information is clear and appropriately sequenced with an introduction and conclusion. Justification of conclusion/recommendations relate to material presented.",
-      "satisfactory": "Attempts to organise information are evident. Reasoning behind conclusions/recommendations is occasionally weak. Limited attempt at organising information in a coherent order. Reasoning behind conclusions/recommendations unclear and/or incomplete.",
-      "unsatisfactory": "Limited attempt at organising information in a coherent order. Reasoning behind conclusions/recommendations unclear and/or incomplete."
+      "criteria": "Argument clarity, organization, and justification",
+      "outstanding": "Information is arranged in a clear, consistent manner with suitable section transitions. The explanation for conclusions and suggestions based on reliable readings of the information provided.",
+      "good": "Information is arranged in a clear, consistent, appropriate manner with an introduction and a conclusion. Explanation for conclusions and suggestions based on the information provided.",
+      "sound": "Content is arranged satisfactorily, following an order with an introduction and conclusion. Explanation for conclusions and suggestions in reference to the information provided.",
+      "satisfactory": "There are attempts to organize the information. There are times when findings and suggestions lack consistency. A minimal attempt was made to arrange the information logically.",
+      "unsatisfactory": "There is not much proof that members' contributions are coordinated. Varying levels of participation from group members."
     },
     {
       "criteria": "Delivery, engagement with audience, and time management",
-      "outstanding": "Clear, strong voice with appropriate inflections emphasizing key messages. Responds accurately to all questions with relevant explanations and contextualization/elaboration. Keep eye contact with the audience. No reliance on notes. Efficient management of presentation and audience response time.",
-      "good": "Clear, strong voice (i.e. all audience members hear the presentation) with a variety of inflections. Responds accurately to all questions with relevant explanations. Keep eye contact with the audience. Occasionally glances at notes or slides. Efficient management of presentation time with topics reflecting their relative importance.",
-      "sound": "Clear, audible voice (i.e. most audience members hear the presentation), but occasionally monotone. Responds accurately to all questions. Keeps eye contact with the audience most of the time. Occasionally reads notes or slides. Manages presentation within time limits.",
+      "outstanding": "Strong, clear voice with the right inflections to highlight important points. Accurately answers all inquiries and provides significant justifications, elaborations, and context. Maintain eye contact with the audience. Not depending on notes. Effective scheduling of the audience's response time and the presentation.",
+      "good": "Strong, clear voice with a range of inflections so that everyone in the audience can hear the presentation accurately answers every question and provides significant justifications. Maintain eye contact with the audience. looks down from time to time at notes or slides. Time for presentations is managed effectively, and the subjects covered represent their relative importance.",
+      "sound": "Generally clear speech, sometimes monotonous and/or spoken at a disturbing pace (too fast or too slow). Usually gives brief, vague responses to questions—not always clearly or completely—without going into detail. Occasionally looks someone in the eye. depends primarily on slides or notes. Uneven delivery in an effort to save time.",
       "satisfactory": "Mostly clear voice, occasionally delivered at a distracting pace (i.e. too slow or too quick) and/or monotone. Responds to most questions with rudimentary answers (not always clearly or completely) and fails to elaborate. Makes intermittent eye contact. Relies on notes or slides most of the time. Uneven presentation to manage time.",
-      "unsatisfactory": "Quiet voice or pronunciation is often indistinct. (i.e. audience members at the back of the room have difficulty hearing the presentation). Responds to few questions, some incomplete and/or incorrect answers. Rarely makes eye contact with the audience; reads notes or slides. Poor time management."
+      "unsatisfactory": "Quiet voice or pronunciation is often indistinct. (For example, those in the back of the room are having trouble hearing the presentation). Answers a few questions, some of which are inaccurate or incomplete. Hardly looks the audience in the eye; instead, reads from notes or slides. Poor time management."
     },
     {
       "criteria": "Supporting material",
-      "outstanding": "Supporting material reinforces message, clean and simple layout, enhancing communication of ideas.",
-      "good": "Supporting material is informative and effectively reinforces the message.",
-      "sound": "Supporting material reinforces the message.",
-      "satisfactory": "Supporting material relevant; sometimes difficult to view/engage with, (i.e. some graphics or special effects distract).",
-      "unsatisfactory": "Supporting material is very difficult to view, layout is cluttered and confusing."
+      "outstanding": "Supporting material improves concept communication by emphasizing the main point and having a clear, simple layout.",
+      "good": "Informational supporting materials successfully reaffirm the main points of the argument.",
+      "sound": "Supplementary information strengthens the point.",
+      "satisfactory": "Supporting material that is relevant but often difficult to watch or interact with (for example, some distracting graphics or special effects).",
+      "unsatisfactory": "The layout is busy and unclear, making it very difficult to understand the supporting material."
     },
     {
       "criteria": "Effective, cohesive teamwork (if group presentation)",
-      "outstanding": "Functions effectively as a cohesive team with clear coordination between participating members. All participants contributed equally to the poster presentation.",
-      "good": "Evidence of cohesive team function with some links between members’ contributions.Evidence of equal contributions of group members.",
-      "sound": "Some evidence of cohesive team function and coordination between group members’ contributions. Some evidence of equal contributions in the group.",
+      "outstanding": "Functions effectively as a cohesive team with evident cooperation amongst participants. Every participant made an equal contribution to the presentation.",
+      "good": "Evidence of a well-functioning team with links between the contributions of its members. Evidence of each group member's equal involvement.",
+      "sound": "Some indication of a functioning team and effective coordination of the contributions of group members. A hint that everyone in the group contributed equally.",
       "satisfactory": "Some evidence of cohesive team function and coordination between group members’ contributions. Some evidence of equal contributions in the group.",
       "unsatisfactory": "Limited evidence of team function and/or coordination between members’ contributions. Minimal evidence of reasonably balanced contributions between group members."
     }
   ],
   "coding": [
     {
-      "criteria": "Content",
-      "outstanding": "Covers all aspects of the topic, including illustrative examples. Discipline-specific terms are well defined and integrated into the presentation.",
-      "good": "Covers all aspects of the topic. Discipline-specific terms are well defined and used appropriately.",
-      "sound": "Includes essential information and some supporting details. Discipline-specific terms are defined and used appropriately.",
-      "satisfactory": "Includes most essential information and some supporting details. Most discipline-specific terms are defined, application is occasionally incorrect.",
-      "unsatisfactory": "Includes some essential information with sounditical details missing. Inconsistent use and application of discipline-specific language."
+      "criteria": "Requirements criteria",
+      "outstanding": "Completed all the requirements. Have done coding in a reliable programming language and reliable software. Good readability; easily understandable and editable, standardized headers used, good use of multiple variables.",
+      "good": "Completed most of the requirements. Have done coding in a reliable programming language and reliable software. Good readability; easily understandable and editable, use of multiple variables.",
+      "sound": "Completed at least these requirements.  Have done coding in a reliable programming language and reliable software. Good readability; easily understandable and editable.",
+      "satisfactory": "Completed some of the requirements. Have done coding in a reliable programming language and reliable software. No readability, hard to understand.",
+      "unsatisfactory": "Completed very few of the requirements. Very poor readability and inappropriate and unreliable programming language."
     },
     {
-      "criteria": "Supporting material",
-      "outstanding": "Supporting material reinforces message, clean and simple layout, enhancing communication of ideas.",
-      "good": "Supporting material is informative and effectively reinforces the message.",
-      "sound": "Supporting material reinforces the message.",
-      "satisfactory": "Supporting material relevant; sometimes difficult to view/engage with, (i.e. some graphics or special effects distract).",
-      "unsatisfactory": "Supporting material is very difficult to view, layout is cluttered and confusing."
+      "criteria": "Coding standards",
+      "outstanding": "Meets all the coding standards and guidelines.",
+      "good": "Meets 80 percent of the standards and guidelines.",
+      "sound": "Meets 60 percent of the standards and guidelines.",
+      "satisfactory": "Meets 30 percent of the standards and guidelines.",
+      "unsatisfactory": "Doesn’t meet the standards and guidelines."
     },
     {
-      "criteria": "Effective, cohesive teamwork (if group presentation)",
-      "outstanding": "Functions effectively as a cohesive team with clear coordination between participating members. All participants contributed equally to the poster presentation.",
-      "good": "Evidence of cohesive team function with some links between members’ contributions.Evidence of equal contributions of group members.",
-      "sound": "Some evidence of cohesive team function and coordination between group members’ contributions. Some evidence of equal contributions in the group.",
-      "satisfactory": "Some evidence of cohesive team function and coordination between group members’ contributions. Some evidence of equal contributions in the group.",
-      "unsatisfactory": "Limited evidence of team function and/or coordination between members’ contributions. Minimal evidence of reasonably balanced contributions between group members."
+      "criteria": "Runtime",
+      "outstanding": "Executes without errors. Excellent user prompts, good use of symbols, spacing in output.",
+      "good": "Executes without errors. User prompts are understandable, minimum use of symbols or spacing in output.",
+      "sound": "Executes without errors. User prompts are understandable, use of symbols or spacing in output is very less.",
+      "satisfactory": "Executes with some errors. User prompts contain little information, poor design.",
+      "unsatisfactory": "Does not execute due to errors. User prompts are misleading or non-existent."
+    },
+    {
+      "criteria": "Documentation and accuracy",
+      "outstanding": "No errors, no grammar mistakes and perfectly documented which meets all the assignment documentation requirements.",
+      "good": "No errors, no grammar mistakes and nicely documented, but lack some(1 or 2) of the documentation criteria of the assignment.",
+      "sound": "No errors, no grammar mistakes but lack the documentation criteria of the assignment.",
+      "satisfactory": "Some errors and grammar mistakes and moderately documented which doesn’t meet most of the documentation criteria of the assignment.",
+      "unsatisfactory": "Errors and grammar mistakes and not documented well which doesn’t meet documentation criteria of the assignment."
+    },
+    {
+      "criteria": "Efficiency",
+      "outstanding": "Code used is extremely efficient without any sacrifice on readability and understanding.",
+      "good": "Code is fairly efficient and has some sacrificing readability and understanding.",
+      "sound": "Code is efficient and sacrifices readability and understanding.",
+      "satisfactory": "The code is brute force and unnecessarily lengthy.",
+      "unsatisfactory": "The code is huge and appears to be patched together unnecessarily."
     }
   ],
   "report-writing": [
     {
-      "criteria": "Effective, cohesive teamwork (if group presentation)",
-      "outstanding": "Functions effectively as a cohesive team with clear coordination between participating members. All participants contributed equally to the poster presentation.",
-      "good": "Evidence of cohesive team function with some links between members’ contributions.Evidence of equal contributions of group members.",
-      "sound": "Some evidence of cohesive team function and coordination between group members’ contributions. Some evidence of equal contributions in the group.",
-      "satisfactory": "Some evidence of cohesive team function and coordination between group members’ contributions. Some evidence of equal contributions in the group.",
-      "unsatisfactory": "Limited evidence of team function and/or coordination between members’ contributions. Minimal evidence of reasonably balanced contributions between group members."
+      "criteria": "Accuracy of writing",
+      "outstanding": "Writing is clear and accurate and is relevant to the topic.",
+      "good": "Writing is acceptable for understanding and is not fully relevant to the topic.",
+      "sound": "Writing is good for understanding and is not fully relevant to the topic.",
+      "satisfactory": "Writing is not very clear and accurate, and is not totally relevant to the topic.",
+      "unsatisfactory": "Writing is not clear and accurate, also not relevant to the topic."
+    },
+    {
+      "criteria": "Content and Development",
+      "outstanding": "Content in the assignment is clear, innovative and concise. Covers all the required topics and from the right sources.",
+      "good": "Content is clear and concise. Covers most (80%) of the topics required and from right sources.",
+      "sound": "Content is clear and concise. Covers most (60%) of the topics required and from good sources.",
+      "satisfactory": "Content is good and can be a little bit more concise. Covers some of the topics required.",
+      "unsatisfactory": "Content is not clear. Covers few/none topics required."
+    },
+    {
+      "criteria": "Organization and structure",
+      "outstanding": "Assignment is organized excellently and structured accordingly. Provides sufficient background on the topic and previews major points.",
+      "good": "Assignment is well organized and structured. Provides sound information to the topic and previews major points.",
+      "sound": "Assignment is organized and structured. Provides information to the topic and previews major points",
+      "satisfactory": "Assignment is not organized and structured nicely. Doesn’t provide sound knowledge of the topic and major points.",
+      "unsatisfactory": "Assignment is not organized or structured. Doesn’t provide sufficient background on the topic and doesn’t preview any points."
+    },
+    {
+      "criteria": "Documentation and accuracy",
+      "outstanding": "No errors, no grammar mistakes and perfectly documented.",
+      "good": "No errors, no grammar mistakes and documented soundly.",
+      "sound": "Some errors and grammar mistakes and documentation is fine.",
+      "satisfactory": "Some errors and grammar mistakes, not documented nicely.",
+      "unsatisfactory": "Errors and grammar mistakes and not documented."
+    }
+  ],
+  "reflection-writing": [
+    {
+      "criteria": "Writing clarity",
+      "outstanding": "The writing is descriptive and clear. The scenario being described can be visualized by the reader. Accurate explanations are given for abstract concepts. Concept explanations make sense to a reader who lacks knowledge.",
+      "good": "The writing is descriptive and clear. The scenario being described can be visualized by the reader.",
+      "sound": "Minimal, sporadic errors in clearness and accuracy.",
+      "satisfactory": "There are often times when clarity and accuracy are lost.",
+      "unsatisfactory": "The language is poor and ambiguous throughout. Either concepts are not discussed or they are explained incorrectly."
+    },
+    {
+      "criteria": "Relevance",
+      "outstanding": "Every aspect of the learning process that is being addressed is comprehensively relevant and meaningful to the learning objectives of the students and the course.",
+      "good": "The majority of the learning experience addressed is significant and related to the learning objectives of the students and the course.",
+      "sound": "A small part of the learning experience addressed is related and important to the learning objectives of the students and the course.",
+      "satisfactory": "Students strive to show relevance, but the reader isn't sure what that relevance is.",
+      "unsatisfactory": "Most of the reflection is unrelated to the learning objectives of the course or the students."
+    },
+    {
+      "criteria": "Analysis",
+      "outstanding": "Beyond just summarizing the experience, the reflection analyzes how it influenced the student's knowledge of the course material, other people, and/or themselves.",
+      "good": "The reflection shows the students' attempts to comprehend the course material, themselves, and/or other people by analyzing the experience.",
+      "sound": "Though the analysis is limited, the reflection shows that the students tried to evaluate the experience.",
+      "satisfactory": "Students try to use what they've learned to better comprehend others, themselves, and/or course concepts, but they are unable to show a depth of analysis.",
+      "unsatisfactory": "Reflection does not go beyond summarizing the educational experience(s)."
+    },
+    {
+      "criteria": "Interconnections",
+      "outstanding": "Numerous links between the experience and content from other courses, prior knowledge, and/or personal objectives are shown in the reflection.",
+      "good": "Few links between the experience and content from other courses, prior knowledge, and/or personal objectives are shown in the reflection.",
+      "sound": "An effort is made to show how the learning experience relates to prior personal and/or learning experiences.",
+      "satisfactory": "There is a lack of clarity and little to no effort is made to show how the learning experience is related to prior personal and/or educational experiences.",
+      "unsatisfactory": "No attempt is made to illustrate how this knowledge or experience relates to prior learning."
+    },
+    {
+      "criteria": "Grammar",
+      "outstanding": "Grammatically sound writing.",
+      "good": "Very few grammar mistakes.",
+      "sound": "Some grammatical mistakes.",
+      "satisfactory": "Very little attention given on grammar mistakes.",
+      "unsatisfactory": "No attention to grammar."
+    }
+  ],
+  "lab-reports": [
+    {
+      "criteria": "Background information and objectives",
+      "outstanding": "Concise, relevant knowledge that covers all methods. Provides instructive examples that are connected to relevant goals in order to contextualize the task's purpose in the real world.",
+      "good": "Enough relevant detail covering every important aspect of the subject. Accurate context is established in some parts. The majority of goals are acceptable.",
+      "sound": "Accurate but short overview covering the majority of the topic's essential elements. Context is established, although certain important details are absent. Uncertain or insufficient goals, or perhaps irrelevant goals.",
+      "satisfactory": "A vague and mostly incomplete introduction to the subject. missing or wrongly identified goal. Important information left out. Confusing context.",
+      "unsatisfactory": "Inaccurate or partial results provided. Key points are absent, or the discussion points are ambiguous or of secondary significance. Figures and tables are hard to understand or unclear."
+    },
+    {
+      "criteria": "Results",
+      "outstanding": "The results are comprehensive and precise. Key trends and anomalies are briefly described in order to establish the discussion points. The statistics and tables are acceptable, accurate, and concise. Contains all relevant identifying information.",
+      "good": "The results are comprehensive and precise. The majority of the major trends and anomalies are briefly described. The tables are precise and full. Includes the majority of identifying information.",
+      "sound": "The results are precise and comprehensive. A brief reference to certain anomalies and patterns. The tables are precise and comprehensive. The majority of statistics are appropriate.",
+      "satisfactory": "The majority of the results are accurate and complete. Several topics for debate were noted. The tables and data are usually complete and correct. Not in the right format.",
+      "unsatisfactory": "Results are simply repeated. Issues, patterns, and aberrations that need more attention. An important component of the analysis is missing. Little recognition of published materials or real-world context."
+    },
+    {
+      "criteria": "Discussion",
+      "outstanding": "Extensive review and interpretation of the data to identify abnormalities and trends. Contextualizes facts using debate topics, published sources, and real-world context. Backed up by descriptive instances.",
+      "good": "Data is analyzed and interpreted to identify patterns and anomalies and provide discussion points. Contextualizes data using established sources and real-world context. There are a few instances given.",
+      "sound": "Provides context for data by drawing on real-world examples and sporadically citing published sources.",
+      "satisfactory": "Inadequate data analysis; barely established trends, abnormalities, and/or discussion topics. Little reference to published sources and/or real-world context discussion.",
+      "unsatisfactory": "Results are simply repeated. Issues, patterns, and aberrations that need more attention. An important component of the analysis is missing. Little recognition of published materials or real-world context."
+    },
+    {
+      "criteria": "Grammar",
+      "outstanding": "Grammatically sound writing.",
+      "good": "Very few grammar mistakes.",
+      "sound": "Some grammatical mistakes.",
+      "satisfactory": "Very little attention given on grammar mistakes.",
+      "unsatisfactory": "No attention to grammar."
+    }
+  ],
+ 
+
+  "poster-submission": [
+    {
+      "criteria": "Information distillation and coherence",
+      "outstanding": "The poster's goal is clearly and specifically communicated in the introduction and backdrop. The objectives and various topics covered in the context of relevant research are closely related to the findings and accurate interpretation of relevant information. A brief summary of the most significant findings that relate to the goals or objectives makes up the justification of the conclusion.",
+      "good": "The introduction and background effectively convey the poster's goal through specific objectives. The information's interpretation and results are connected to the objectives and explored within the framework of relevant studies. Conclusion justified with clear reference to the data presented.",
+      "sound": "The poster's goal is communicated through the introduction and background. The majority of the time, results and information interpretation are discussed in the context of the literature and are related to the goals. Conclusion justification is based on the information provided.",
+      "satisfactory": "The poster's goal is communicated through the introduction and background. Attempts to relate information interpretation and/or results to the objectives; sometimes discussed in relation to other works of literature. There are times when conclusions lack coherence.",
+      "unsatisfactory": "Some of the key subjects are discussed in the introduction and backdrop. Limited awareness of the literature and minimal effort to connect information interpretation and/or outcomes to the objectives. The conclusion's reasoning is either imprecise or lacking."
+    },
+    {
+      "criteria": "Application of content",
+      "outstanding": "Clearly covers all aspects of the subject and provides important images, figures, charts, and other visual aids. Certain phrases are explained precisely and included in the poster. All data obtained from other sources is correctly cited, adhering to the reference style.",
+      "good": "Covers the main points of the subject and provides relevant images, figures, tables, and other visual aids. Certain terms are used correctly and with proper definitions. All material collected from other sources is properly cited, however the reference style is used inconsistently.",
+      "sound": "Includes relevant images, figures, tables, and other relevant information. Key terminology is defined and employed correctly. The majority of data obtained from other sources is cited while attempting to follow the reference style.",
+      "satisfactory": "Makes an effort to offer the most important details regarding the subject, however very few examples or relevant images, figures, tables, etc. are included. There are some established terminologies, however sometimes the application is incorrect. The majority of data collected from other sources is cited, though inconsistently, using a reference style.",
+      "unsatisfactory": "Provides relevant images, figures, tables, and other material, but leaves out important details and lacks visual examples when discussing the topic's aspects. It might be challenging to determine which reference style is being used when referencing information that was obtained from other sources."
+    },
+    {
+      "criteria": "Format and design",
+      "outstanding": "Good poster design concepts are demonstrated by the poster's clear and uncomplicated layout. The material is arranged in a way that is coherent, logical, suitable in order, and consistent throughout. Simple, straightforward information with clear labels is presented in tabular and graphic form.",
+      "good": "The message is successfully conveyed via the poster layout. Information is arranged in a clear, consistent, and suitable manner, with an introduction, a discussion of the findings, and a conclusion. Information is presented graphically and tabularly, with minimal unnecessary details and proper labeling.",
+      "sound": "The design of the poster supports the message. Information is clearly organized and, for the most part, presented in an acceptable order with an introduction and conclusion. The majority of the graphic and tabular data is understandable and has the proper labels.",
+      "satisfactory": "Relevant poster layout, but occasionally challenging to read or interact with (certain images or special effects distract, for example). There are clear attempts to organize the information. While most graphic and tabular data is adequately labeled, it can occasionally be challenging to view and interact with.",
+      "unsatisfactory": "The poster arrangement is cluttered and complex, making it very difficult to view. A limited attempt was made to arrange the information logically. Information is presented inconsistently in tabular and graphic form, lacking some crucial details like labels."
+    }
+  ],
+  "group-projects": [
+    {
+      "criteria": "Individual Contribution",
+      "outstanding": "Respectfully and cooperatively collaborates with others, appreciating their contributions and the group's strengths. Meets deadlines for projects completed and proactively assists teammates in finishing assignments. Takes ownership of group projects and encourages non-participating members to participate.",
+      "good": "Collaborates and treats teammates with respect in a team setting. Meets deadlines for completing tasks assigned and progresses the group project. Takes accountability for collaborative work.",
+      "sound": "Collaborates well with teammates in a team setting. Meets deadlines for completing duties assigned. Share ideas. Minimally advances the group project by contribution.",
+      "satisfactory": "Share insights occasionally. Incomplete contributions, assignments, or repeated deadline misses.",
+      "unsatisfactory": "Incomplete contributions, assignments, or repeated deadline misses."
+    },
+    {
+      "criteria": "Team Collaboration",
+      "outstanding": "Performs well as a coherent group with noticeable cooperation amongst participants. Evident proof that each person contributed equally.",
+      "good": "Evidence of a well-functioning team with connections between the contributions of its members. Evidence of each group member's equal involvement.",
+      "sound": "Some indication of a functioning team and effective coordination of the contributions of group members. Some proof that everyone in the group contributed equally.",
+      "satisfactory": "Various levels of participation from group members.",
+      "unsatisfactory": "There is not much proof that group members' contributions are fairly distributed."
+    },
+    {
+      "criteria": "Project Planning and Organization",
+      "outstanding": "All the members initiate planning and organising all the activity of the project by incorporating other members' ideas and timing in consideration. All group members are effectively communicated about what to do next.",
+      "good": "Planning and organising is done by the leader of the project and may or may not have taken everybody’s opinion in consideration but all the members know the next step and are on the same page.",
+      "sound": "Plans their individual work and shares to the group members. The members may or may not be aware of the next step.",
+      "satisfactory": "Limited planning and organising skill is shown. All members are not aware of what is to be done next.",
+      "unsatisfactory": "Lack of organisation and planning in the group. None of the members are on the same page."
+    },
+    {
+      "criteria": "Quality of Deliverables",
+      "outstanding": "All the members deliver quality work according to their deadlines.",
+      "good": "Most of the members deliver quality work according to their deadlines.",
+      "sound": "Most of the members deliver work according to their deadlines but quality of work could have been compromised.",
+      "satisfactory": "Some of the members deliver work according to their deadlines but quality of work could have been compromised.",
+      "unsatisfactory": "None of the members deliver work according to their deadlines and quality of work is compromised."
+    },
+    {
+      "criteria": "Conflict Resolution",
+      "outstanding": "The conflicts are well addressed and solved with the presence of all the group members and lessons are learnt.",
+      "good": "The conflicts are well addressed and attempts to solve the conflict with the presence of all the group members.",
+      "sound": "The conflicts are addressed and solutions are attempted.",
+      "satisfactory": "The conflicts are addressed but no solutions are attempted.",
+      "unsatisfactory": "The conflicts are present but not addressed and solutions are not attempted."
+    },
+    {
+      "criteria": "Presentation and Communication Skills",
+      "outstanding": "Accurately answers all inquiries and provides relevant justifications, elaborations, and context.",
+      "good": "Accurately answers every question and provides relevant justifications.",
+      "sound": "Appropriately answers all questions.",
+      "satisfactory": "Usually provides brief, vague responses to questions—not always clearly or completely—without going into detail.",
+      "unsatisfactory": "Answers a few questions, some of which are inaccurate or incomplete."
+    }
+  ],
+  "case-study-assessment": [
+    {
+      "criteria": "Evaluation of contextual circumstances and relevant issues",
+      "outstanding": "Thoughtful examination of every setting. Identifies and briefly discusses each major issue with accuracy. Examines the effects of all contextual factors. Explains and identifies each major issue in detail.",
+      "good": "Examines the effects of all contextual factors. Explains and identifies each major issue in detail.",
+      "sound": "Explains the importance of the majority of important contextual factors in detail. Describes the most important topics.",
+      "satisfactory": "Explains certain contextual conditions in detail. Occasionally, explanations of some important topics are ambiguous, imprecise, or lacking.",
+      "unsatisfactory": "Identifies certain contextual conditions that are either unclear or inaccurately described, or have minimal importance. The descriptions are vague or unreliable."
+    },
+    {
+      "criteria": "Solutions to identified problems/issues",
+      "outstanding": "Suggests a targeted, doable evaluation and action plan. All of the plan's important components are described in clear, concise terms.",
+      "good": "As a plan of action and assessment, provide a few important recommendations. Describes the majority of the important components of the suggested plan.",
+      "sound": "As a plan of action and assessment, provide a few important recommendations. Briefly explains the components of the suggested plan.",
+      "satisfactory": "Provide a few recommendations for fixes. Provides not much, confusing, incorrect or incomplete components to reach a solution.",
+      "unsatisfactory": "Key components are absent, and the assessment and solution are unclear or nonexistent."
+    },
+    {
+      "criteria": "Correlation to the topic",
+      "outstanding": "Demonstrates a thorough comprehension of the subject matter of the case and finds a precise relation to the material discussed in the class. Cites relevant studies to support recommendations.",
+      "good": "Demonstrates sufficient comprehension of the subject matter of the case and establishes a connection to the material covered in class.",
+      "sound": "Finds the correlation to the subject matter discussed in class. Makes an effort to utilize the proper referencing style.",
+      "satisfactory": "Does not find a precise correlation to the subject matter discussed in class but makes effort to relate it to other topics. Few attempts to apply the style of referencing.",
+      "unsatisfactory": "Does not find correlation to the subject matter at all. Little citation of sources to back up claims."
+    },
+    {
+      "criteria": "Originality and creativity",
+      "outstanding": "The review is coherently written. Demonstrates strong originality and creativity in the strategy used, the insights provided, or the questions addressed.",
+      "good": "The review is coherently written. Demonstrates some innovation and creative endeavors in the method used, the insights provided, or the questions addressed.",
+      "sound": "Although the review is well-written, it might use more originality or creativity.",
+      "satisfactory": "Although the review is well-written, it lacks any notable originality or creativity.",
+      "unsatisfactory": "The review's construction isn't very good. lacks creativity and originality."
+    }
+  ],
+  "quizzes-exams": [
+    {
+      "criteria": "Understanding of Material",
+      "outstanding": "Reflects exceptional understanding of material. By reading the answers an individual can easily understand the motive of question and answer.",
+      "good": "Reflects strong understanding of material. By reading the answers an individual can understand the meaning of the answer.",
+      "sound": "Reflects satisfactory understanding of material. By reading the answers an individual can understand the answer but it is not totally enough according to the criteria.",
+      "satisfactory": "Reflects basic understanding of material. By reading the answers an individual can understand the answer but it is not totally relevant.",
+      "unsatisfactory": "Little to none understanding of material. By reading the answers an individual can’t understand the motive of the and answer."
+    },
+    {
+      "criteria": "Clarity of Answers",
+      "outstanding": "Answers are clear, thorough and complete.",
+      "good": "Answers are clear, comprehensive and complete.",
+      "sound": "Answers are mostly clear and complete.",
+      "satisfactory": "Answers are somewhat unclear but complete.",
+      "unsatisfactory": "Answers are unclear and incomplete."
+    },
+    {
+      "criteria": "Critical Thinking",
+      "outstanding": "Demonstrates evidence of critical thinking and originality. Well analyzed, synthesized, and evaluated information to form well-reasoned conclusions.",
+      "good": "Demonstrates critical thinking skills. Well analyzed, synthesized, and evaluated information to form reasoned conclusions.",
+      "sound": "Some evidence of critical thinking. Well analyzed, synthesized, and but not evaluated information properly to form well-reasoned conclusions.",
+      "satisfactory": "Limited evidence of critical thinking. Is not well analyzed, synthesized, and evaluated information to form well-reasoned conclusions.",
+      "unsatisfactory": "No evidence of critical thinking."
+    },
+    {
+      "criteria": "Support with Examples/Evidence",
+      "outstanding": "Answers are well-supported with relevant examples and evidence.",
+      "good": "Answers are adequately supported with relevant examples and evidence.",
+      "sound": "Answers are supported basically with relevant examples and evidence.",
+      "satisfactory": "Answers are minimally supported with examples and evidence.",
+      "unsatisfactory": "Answers are Not/ irrelevant support with examples and evidence."
+    },
+    {
+      "criteria": "Alignment with Requirements",
+      "outstanding": "Goes above and beyond requirements.",
+      "good": "Meets or exceeds requirements.",
+      "sound": "Meets expectations.",
+      "satisfactory": "Meets minimum requirements.",
+      "unsatisfactory": "Fails to meet minimum requirements."
+    }
+  ],
+  "peer-review": [
+    {
+      "criteria": "Understanding of Peer's Work",
+      "outstanding": "Provides insightful and constructive feedback.",
+      "good": "Provides thoughtful comments and suggestions.",
+      "sound": "Provides relevant feedback but no suggestions.",
+      "satisfactory": "Provides some feedback, but irrelevant.",
+      "unsatisfactory": "Provides little to no feedback."
+    },
+    {
+      "criteria": "Clarity of Feedback",
+      "outstanding": "Feedback is clear, specific, and well-structured.",
+      "good": "Feedback is clear and organized.",
+      "sound": "Feedback is mostly clear and understandable.",
+      "satisfactory": "Feedback is unclear/disorganized.",
+      "unsatisfactory": "Feedback is unclear/irrelevant."
+    },
+    {
+      "criteria": "Alignment with Assessment Criteria",
+      "outstanding": "Feedback addresses all key aspects of the assignment and provides suggestions for improvement.",
+      "good": "Feedback addresses most of the key aspects of the assignment.",
+      "sound": "Feedback addresses some of the key aspects of the assignment.",
+      "satisfactory": "Feedback addresses a few key aspects of the assignment.",
+      "unsatisfactory": "Feedback does not address any key aspects of the assignment."
+    },
+    {
+      "criteria": "Professionalism and Respectfulness",
+      "outstanding": "Feedback is delivered respectfully and professionally, showing a positive learning environment.",
+      "good": "Feedback is generally respectful and professional.",
+      "sound": "Feedback is mostly respectful, but may lack professionalism at some times.",
+      "satisfactory": "Feedback lacks respectfulness or professionalism.",
+      "unsatisfactory": "Feedback is disrespectful and unprofessional."
+    }
+  ],
+  "simulation-task": [
+    {
+      "criteria": "Proficiency",
+      "outstanding": "Demonstrates exceptional understanding, effectively utilizes all features and tools.",
+      "good": "Demonstrate strong proficiency, and navigate and utilize features and tools smoothly.",
+      "sound": "Demonstrates basic proficiency, navigates and utilizes features and tools.",
+      "satisfactory": "Demonstrates limited proficiency, navigates and utilizes features and tools poorly.",
+      "unsatisfactory": "Demonstrates no proficiency, and doesn’t navigate and utilize features and tools at all."
+    },
+    {
+      "criteria": "Problem-Solving Skills",
+      "outstanding": "Applies good problem-solving strategies, solve problems and challenges apprised.",
+      "good": "Applies effective problem-solving strategies, addresses challenges but solutions are not appropriate.",
+      "sound": "Applies basic problem-solving strategies, addresses challenges but no solutions.",
+      "satisfactory": "Applies limited problem-solving strategies, addresses few challenges but no solutions.",
+      "unsatisfactory": "Inadequate problem-solving skills."
+    },
+    {
+      "criteria": "Decision Making",
+      "outstanding": "Makes well-reasoned and strategic decisions that lead to completion of all tasks.",
+      "good": "Make sound decisions that lead to completion of most of the tasks.",
+      "sound": "Make satisfactory decisions that lead to completion of the satisfactory task completion.",
+      "satisfactory": "Makes minimal decisions that lead to minimal compilation of the task.",
+      "unsatisfactory": "Makes poor decisions that lead to no completion."
+    },
+    {
+      "criteria": "Engagement and Participation",
+      "outstanding": "Actively engaged, participated throughout the tasks.",
+      "good": "Engages and maintains focus for the most of the task duration.",
+      "sound": "Participates in the task, though engagement is poor.",
+      "satisfactory": "Limited engagement and participation.",
+      "unsatisfactory": "No engagement and participation."
     }
   ]
 }
+
